@@ -29,6 +29,7 @@ namespace Library
             {
                 Console.WriteLine($"{book.Title} by {book.Author}");
             }
+            // Phase12rite a method for the LibraryManager class that displays the books in an instance of LibraryManagerusing the same format as #6 and #8
         }
     }
 }
