@@ -6,6 +6,7 @@ namespace Library
 {
     public class Book
     {
+        // A constructor (lines 10-16) is a method whose name is the same as the name of its type.Its method signature includes only an optional access modifier (public or private), the method name and its parameter list; it does not include a return type.
         public Book(string title, string author, DateTime publishDate, string genre)
         {
             Title = title;
