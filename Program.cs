@@ -22,9 +22,9 @@ namespace Library
             BookList.Add(book4);
 
 
+            // Phase6(Step 15 says to delete this. Leaving it for future reference) - using your instance of Book, print out its Title and Author to the Console in the format<Title>, by<Author>
             // Console.WriteLine($"The {book1.Genre} book, {book1.Title}, by {book1.Author}, was published on {book1.PublishDate}. ");
-            // Phase6 - using your instance of Book, print out its Title and Author to the Console in the format<Title>, by<Author>
-            // Phase8 - Iterate over BookList, and print the title / author to the Console in the loop in the same format as in 6.!!!!!The lower case book is a TACO!!!!
+            // Phase8(Step 15 says to delete this. Leaving it for future reference) - Iterate over BookList, and print the title / author to the Console in the loop in the same format as in 6.!!!!!The lower case book is a TACO!!!!
             // foreach (Book book in BookList)
             // {
             //     Console.WriteLine($"{book.Title} by {book.Author}");
