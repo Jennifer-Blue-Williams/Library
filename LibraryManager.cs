@@ -6,7 +6,16 @@ namespace Library
 {
     public class LibraryManager
     {
-        public LibraryManager(string )
+        public LibraryManager(string name)
         {
             Name = name;
         }
+
+        // Phase12 - Create a private field in the LibraryManager class called _books. Its type will be List<Book> , and you can set it equal to an empty List<Book>
+        private List<Book> _books = new List<Book>();
+
+        public string Name
+        { get; set; }
+        // Lines 9-12 showed squiggly lines until the get; set; was added
+    }
+}
