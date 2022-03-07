@@ -6,8 +6,14 @@ namespace Library
     class Program
     {
         public static void Main(string[] args)
-        // In the main method, create an instance of the Book class, and save its value as a variable
         {
+            // Phase 16 -  Create a new instance of the LibraryManager class at the beginning of the Main method, pass the constructor a name for your library.
+            // In the main method, create an instance of the Book class, and save its value as a variable
+            var libraryName = new LibraryManager("Blue's Book Barn");
+
+            // Phase 17 - Write out "Welcome to the <Name> Library Management System!" to the console using your library instance.
+            Console.WriteLine($"Welcome to the {libraryName.Name} Library Managemen System!");
+
             List<Book> BookList = new List<Book>();
             // Phase7 - Create some more books (Below) and store them in a List
             // var book#1,2,3,4 only creates new instances of books, it does not add them to the list
